@@ -1,6 +1,31 @@
 Release Note {#Release_Note}
 =====
 
+1.0.12 (April. 17, 2026)
+-----
+
+### New Features
+
+ * Supported Chipsets
+   - Cortex-M0+  : A31xxxx Series
+     * A31C14x
+     * A31C12x
+
+### Enhancements
+ N/A
+
+### Bug Fixes
+ N/A
+
+### Tool
+ N/A
+
+### Documentation
+ N/A
+
+### Miscellaneous
+ N/A
+
 1.0.11 (Feb. 2, 2026)
 -----
 

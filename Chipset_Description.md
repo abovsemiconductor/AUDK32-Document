@@ -461,6 +461,41 @@ A31xxxx Sub Family
 <tr>                                                <td> \ref HAL_FRT "Free Run Timer (FRT)"                                             <td> <center>V</center>        <td> 01.00.00
 </table>
 
+### A31C12x
+
+#### - Brief Description
+
+ * CPU : ARM Cortex-M0+ Core
+ * Interrupt : Up to 32 peripheral interrupts
+ * Code Flash 
+  - A31C122 : 32KB Code Flash Memory
+  - A31C121 : 16KB Code Flash Memory
+ * SRAM : 6KB
+ * Operation Frequency : Up To 32MHz
+ * Clock
+  - High Speed Internal oscillator (HSI) : 32MHz
+  - WDT Internal oscillator (LSI) : 32KHz
+  - High Speed External oscillator (HSE) : 4MHz ~ 16MHz
+  - Low Speed External oscillator (LSE) : 32.768KHz
+
+#### - Support Peripheral List and Version
+
+<table>
+<tr>
+    <th> <center>Group</center>                     <th> <center>Peripheral</center>                                                      <th> <center>Type</center>     <th> <center>Version</center> 
+<tr> <td> System                                    <td> \ref HAL_SCU "System Control Unit (SCU)"                                         <td> <center>V</center>        <td> 04.00.00
+<tr> <td> Port                                      <td> \ref HAL_PCU "Port Control Unit (PCU)"                                           <td> <center>V</center>        <td> 02.00.03
+<tr> <td> Memory                                    <td> \ref HAL_CFMC "Code Flash Memory Controller (CFMC)"                              <td> <center>V</center>        <td> 03.01.01
+<tr> <td> Analog                                    <td> \ref HAL_ADC "Analog to Digital Converter (ADC)"                                 <td> <center>V</center>        <td> 01.00.02
+<tr> <td> Security & Integrity                      <td> \ref HAL_CRC "Cyclic Redundancy Check (CRC)"                                     <td> <center>V</center>        <td> 02.00.03
+<tr> <td rowspan="3"> Connectivity & Communication  <td> \ref HAL_I2C "Inter-Integrated Circuit (I2C)"                                    <td> <center>V</center>        <td> 01.00.00
+<tr>                                                <td> \ref HAL_UART "Universal Asynchronous Receiver Transmitter (UART)"               <td> <center>V</center>        <td> 01.00.08
+<tr>                                                <td> \ref HAL_USART "Universal Synchronous/Asynchronous Receiver Transmitter (USART)" <td> <center>F</center>        <td> 01.02.01
+<tr> <td rowspan="3"> Timer                         <td> \ref HAL_TIMER1 "16-bit General Purpose Timer (TIMER1)"                          <td> <center>V</center>        <td> 01.02.00
+<tr>                                                <td> \ref HAL_WDT "Watch Dog Timer (WDT)"                                             <td> <center>V</center>        <td> 01.00.02
+<tr>                                                <td> \ref HAL_FRT "Free Run Timer (FRT)"                                             <td> <center>V</center>        <td> 01.00.00
+</table>
+
 ### A31G33x
 
 #### - Brief Description
