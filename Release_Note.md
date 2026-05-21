@@ -1,6 +1,31 @@
 Release Note {#Release_Note}
 =====
 
+1.0.11 (Feb. 2, 2026)
+-----
+
+### New Features
+
+ * Supported Chipsets
+   - Cortex-M4  : A34xxxx Series
+     * A34G43x
+
+### Enhancements
+ * New Modules.
+   - QSPI (Quad Serial Peripheral Interface) 
+
+### Bug Fixes
+ N/A
+
+### Tool
+ N/A
+
+### Documentation
+ N/A
+
+### Miscellaneous
+ N/A
+
 1.0.10 (Dec. 24, 2025)
 -----
 

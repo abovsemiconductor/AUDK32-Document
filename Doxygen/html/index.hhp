@@ -26,6 +26,8 @@ d0/d45/struct_l_e_d___c_f_g__t.html
 d0/d55/hal__qei__version_8txt.html
 d0/d66/struct_l_c_d___c_l_k___c_f_g__t.html
 d0/d79/struct_t_i_m_e_r2___c_f_g__t.html
+d0/d81/struct_q_s_p_i___p_h_a_s_e___c_f_g__t.html
+d0/d86/hal__usb_8h.html
 d0/d93/struct_f_r_t___context__t.html
 d0/d93/struct_t_i_m_e_r4___c_l_k___c_f_g__t.html
 d0/d94/struct_t_i_m_e_r1___c_l_k___c_f_g__t.html
@@ -40,6 +42,7 @@ d0/db5/struct_q_e_i___v_e_l___c_f_g__t.html
 d0/db7/hal__aes_8h.html
 d0/db8/hal__timer1_8h.html
 d0/db8/struct_q_e_i___context__t.html
+d0/dbd/struct_u_s_b___c_l_k___c_f_g__t.html
 d0/dd9/hal__cfmc__prv_8h.html
 d0/de1/struct_u_a_r_t___c_l_k___c_f_g__t.html
 d0/de2/hal__spi_8h.html
@@ -108,12 +111,14 @@ d4/d48/struct_a_f_e___c_f_g__t.html
 d4/d4c/hpl__dma_8h.html
 d4/d4f/struct_u_a_r_t___context__t.html
 d4/d57/struct_v_r_e_f_b_u_f___c_f_g__t.html
+d4/d5d/hal__usb__version_8txt.html
 d4/d71/struct_i2_c___s_l_t_p___c_f_g__t.html
 d4/d73/struct_a_d_c___b_u_f___d_l_y___c_f_g__t.html
 d4/d75/group___h_a_l___w_t.html
 d4/d80/struct_s_c_u_p_w_r___b_a_k___d_a_t_a__t.html
 d4/d8a/struct_l_c_d___d_a_t_a__t.html
 d4/d8f/hal__pwm__version_8txt.html
+d4/d91/hal__usb__prv_8h.html
 d4/d9e/hal__timer4__version_8txt.html
 d4/dbd/hal__timer2__version_8txt.html
 d4/dde/group___h_p_l___d_m_a.html
@@ -148,6 +153,7 @@ d6/d3c/struct_m_p_w_m___s_p___c_f_g__t.html
 d6/d3d/struct_f_m_c___c_o_n_f_i_g__t.html
 d6/d3e/hal__cmp_8h.html
 d6/d40/hal__wt__version_8txt.html
+d6/d47/hal__qspi_8h.html
 d6/d4b/struct_c_m_p___d_b_c___c_f_g__t.html
 d6/d4d/group___h_a_l___l_p_u_a_r_t.html
 d6/d52/hal__timer1__prv_8h.html
@@ -157,7 +163,9 @@ d6/d68/hal__scu__lvd_8h.html
 d6/d78/struct_m_p_w_m___a_d_c_t_r_g___c_f_g__t.html
 d6/d89/hal__lcd_8h.html
 d6/d8b/hal__dac__version_8txt.html
+d6/d91/struct_q_s_p_i___c_f_g__t.html
 d6/d9d/group___h_a_l___f_r_t.html
+d6/d9e/struct_u_s_b___c_f_g__t.html
 d6/db0/hal__frt_8h.html
 d6/dc1/hal__frt__version_8txt.html
 d6/dc2/hal__trng__version_8txt.html
@@ -217,8 +225,10 @@ d9/dd0/struct_w_d_t___c_l_k___c_f_g__t.html
 d9/dd8/hal__dac__prv_8h.html
 d9/dda/struct_p_w_m___c_l_k___c_f_g__t.html
 d9/deb/hal__trng_8h.html
+d9/dec/hal__qspi__prv_8h.html
 d9/df1/group___h_a_l___a_f_e.html
 da/d01/hal__timer3__version_8txt.html
+da/d11/struct_u_s_b___context__t.html
 da/d1c/hal__adc_8h.html
 da/d3b/struct_m_p_w_m___s_d___c_f_g__t.html
 da/d56/hal__afe_8h.html
@@ -232,9 +242,11 @@ da/dd0/hal__afe__version_8txt.html
 da/dda/hal__qei__prv_8h.html
 da/de2/hal__wt__prv_8h.html
 da/df3/hal__adc__prv_8h.html
+da/df7/hal__qspi__version_8txt.html
 da/dfa/hal__usart__version_8txt.html
 db/d08/hal__lpuart_8h.html
 db/d2c/hal__pga__prv_8h.html
+db/d2f/struct_u_s_b___e_p_x___c_f_g__t.html
 db/d33/struct_i2_c___m_a_u_l___c_f_g__t.html
 db/d5d/struct_t_e_m_p_s_e_n_s___c_f_g__t.html
 db/d66/hal__timer4e_8h.html
@@ -288,10 +300,12 @@ dd/df0/struct_t_e_m_p_s_e_n_s___context__t.html
 dd/dfb/hpl__nmi__version_8txt.html
 de/d0d/struct_l_e_d___o_v_l_a_p___c_f_g__t.html
 de/d15/hal__tempsens__version_8txt.html
+de/d2f/group___h_a_l___q_s_p_i.html
 de/d36/group___h_a_l___v_r_e_f_b_u_f.html
 de/d4a/hal__ebi__prv_8h.html
 de/d4d/hal__timer3_8h.html
 de/d53/group___h_a_l___s_c_u___p_w_r.html
+de/d67/group___h_a_l___u_s_b.html
 de/d6b/struct_t_i_m_e_r4___c_a_p___c_f_g__t.html
 de/d72/struct_m_p_w_m___i_n_d_i_v___c_f_g__t.html
 de/d78/struct_t_i_m_e_r4_e___o_u_t_p_u_t___c_f_g__t.html
@@ -346,6 +360,7 @@ dir_2552c42ececd86cd06e8c099ac3960b0.html
 dir_28b5116bf2dbe348663bd2a7e33c4e5f.html
 dir_30fd09e66946813375e6173120a0bc94.html
 dir_37d27e2c72de1f00f127eaf055d15afa.html
+dir_40cac7e210d10c4010291bb39c25d59b.html
 dir_538891e3dd7eb575c1287564a7ce82da.html
 dir_5538ddc4bfaa89f13314e9173221462a.html
 dir_57d3572da759e0cb841de48ebb2c584a.html
@@ -380,6 +395,7 @@ dir_f2093a6876abdc7a47b5ed832384dc81.html
 dir_f626cedbba9bda6ab4ff9bf527f81e8e.html
 dir_f6383e9e4f9228822e62d2e5f4519014.html
 dir_f672f36918e5a91f2d4cf7f809fd4f0a.html
+dir_fa8244c8f55a73cf8f308c13bf5b7f2e.html
 files.html
 functions.html
 functions_e.html

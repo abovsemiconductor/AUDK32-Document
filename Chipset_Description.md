@@ -820,3 +820,47 @@ A34xxxx Sub Family
 <tr> <td> Display                                   <td> \ref HAL_LCD "Liquid Crystal Display controller (LCD)"                            <td> <center>F</center>        <td> 01.00.04
 <tr> <td> Miscellaneous                             <td> \ref HAL_VREFBUF "Voltage Reference Buffer (VREFBUF)"                             <td> <center>V</center>        <td> 01.00.00
 </table>
+
+### A34G43x
+
+#### - Brief Description
+
+ * CPU : ARM Cortex-M4F Core
+ * Interupt : Up to 86 peripheral interrupts
+ * Code Flash 
+  - A34G43A : 2048KB Code Flash Memory
+  - A34G430 : 1024KB Code Flash Memory
+ * Data Flash : 32KB Data Flash Memory
+ * SRAM : 256KB
+ * Operation Frequency : Up To 200MHz
+ * Clock
+  - High Speed Internal oscillator (HSI) : 16MHz
+  - Low Speed Internal oscillator (LSI) : 500KHz
+  - High Speed External oscillator (HSE) : 4MHz ~ 16MHz
+  - Low Speed External oscillator (LSE) : 32.768KHz
+  - Phase-Locked Loop (PLL) : Up to 200MHz
+
+#### - Support Peripheral List and Version
+
+<table>
+<tr>
+    <th> <center>Group</center>                     <th> <center>Peripheral</center>                                                       <th> <center>Type</center>     <th> <center>Version</center> 
+<tr> <td> System                                    <td> \ref HAL_SCU "System Control Unit (SCU)"                                          <td> <center>V</center>        <td> 02.00.03
+<tr> <td> Port                                      <td> \ref HAL_PCU "Port Control Unit (PCU)"                                            <td> <center>V</center>        <td> 02.00.05
+<tr> <td rowspan="2"> Memory                        <td> \ref HAL_FMC "Flash Memory Controller (FMC)"                                      <td> <center>V</center>        <td> 03.00.03
+<tr>                                                <td> \ref HPL_DMA "Direct Memory Access controller (DMA)"                              <td> <center>V</center>        <td> 01.00.00
+<tr> <td rowspan="3"> Analog                        <td> \ref HAL_ADC "Analog to Digital Converter (ADC)"                                  <td> <center>V</center>        <td> 01.00.05
+<tr>                                                <td> \ref HAL_DAC "Digital to Analog Converter (DAC)"                                  <td> <center>V</center>        <td> 03.00.01
+<tr>                                                <td> \ref HAL_CMP "Comparator (CMP)"                                                   <td> <center>V</center>        <td> 02.00.02
+<tr> <td rowspan="3"> Security & Integrity          <td> \ref HAL_CRC "Cyclic Redundancy Check (CRC)"                                      <td> <center>V</center>        <td> 02.00.03
+<tr>                                                <td> \ref HAL_AES "Advanced Encryption Standard (AES)"                                 <td> <center>V</center>        <td> 01.00.00
+<tr>                                                <td> \ref HAL_RNG "Random Number Generator (RNG)"                                      <td> <center>V</center>        <td> 01.00.00
+<tr> <td rowspan="4"> Connectivity & Communication  <td> \ref HAL_I2C "Inter-Integrated Circuit (I2C)"                                     <td> <center>V</center>        <td> 01.00.00
+<tr>                                                <td> \ref HAL_SPI "Serial Peripheral Interface (SPI)"                                  <td> <center>V</center>        <td> 01.01.00
+<tr>                                                <td> \ref HAL_UART "Universal Asynchronous Receiver Transmitter (UART)"                <td> <center>V</center>        <td> 01.00.06
+<tr>                                                <td> \ref HAL_QSPI "Quad Serial Peripheral Interface (QSPI)"                           <td> <center>V</center>        <td> 01.00.00
+<tr> <td rowspan="4"> Timer                         <td> \ref HAL_TIMER1 "16-bit General Purpose Timer (TIMER1)"                           <td> <center>V</center>        <td> 01.02.00
+<tr>                                                <td> \ref HAL_PWM "Pulse Width Modulation (PWM)"                                       <td> <center>V</center>        <td> 01.00.01
+<tr>                                                <td> \ref HAL_WDT "Watch Dog Timer (WDT)"                                              <td> <center>V</center>        <td> 01.00.00
+<tr>                                                <td> \ref HAL_FRT "Free Run Timer (FRT)"                                               <td> <center>V</center>        <td> 01.00.00
+</table>
